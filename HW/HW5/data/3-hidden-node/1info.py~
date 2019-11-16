@@ -1,0 +1,55 @@
+import os
+import matplotlib.pyplot as plt
+
+
+avgThroughput = 0
+rtt = []
+throughput = []
+loss = []
+name = []
+i =1
+for filename in sorted(os.listdir(os.getcwd())):
+	if(filename!="info.py" and filename!="info.py~"):
+		name.append(i)
+		i+=1
+		myFile = open(filename,"r")
+		packSize = 0.0
+		time = 0
+		for line in myFile:
+			listLine = line.strip().split()
+			#print(listLine)
+			if(len(listLine)!=0):
+				if(listLine[0] == '1008'):
+					packSize+=1008
+				if(listLine[0] == '50008'):
+					packSize+=50008
+				if(listLine[0] == '100'):
+					time = int(listLine[9][0:-2])
+					loss.append(float(listLine[5].split('%')[0]))
+				if(listLine[0] == 'rtt'):
+					rtt.append(float(listLine[3].split('/')[1]))
+		avgThroughput += packSize*8/time
+		throughput.append(packSize*8/time)
+print(str(avgThroughput/10) + " kbps")
+print(rtt)
+print(throughput)
+plt.figure(1)
+plt.subplot(3,1,1)
+plt.plot(name,rtt,'bs')
+plt.xlim((0,11))
+plt.xlabel('Times')
+plt.ylabel('RTT(ms)')
+plt.title( os.getcwd().split('/')[-1])
+plt.subplot(3,1,2)
+plt.plot(name,throughput,'bs')
+plt.xlim((0,11))
+plt.xlabel('Times')
+plt.ylabel('Throughput(kbps)')
+plt.subplot(3,1,3)
+plt.plot(name,loss,'bs')
+plt.xlabel('Times')
+plt.ylabel('loss(%)')
+plt.ylim((0,60))
+plt.xlim((0,11))
+plt.savefig(os.getcwd().split('/')[-1]+'.png')
+

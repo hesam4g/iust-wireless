@@ -1,0 +1,6 @@
+PING 172.17.9.1 (172.17.9.1) 50000(50028) bytes of data.
+50008 bytes from 172.17.9.1: icmp_seq=1 ttl=64 time=89.5 ms
+
+--- 172.17.9.1 ping statistics ---
+100 packets transmitted, 1 received, 99% packet loss, time 1324ms
+rtt min/avg/max/mdev = 89.527/89.527/89.527/0.000 ms, pipe 8

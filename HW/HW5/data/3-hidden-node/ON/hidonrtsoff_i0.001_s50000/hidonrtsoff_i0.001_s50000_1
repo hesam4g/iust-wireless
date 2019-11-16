@@ -1,0 +1,21 @@
+PING 172.17.9.1 (172.17.9.1) 50000(50028) bytes of data.
+50008 bytes from 172.17.9.1: icmp_seq=85 ttl=64 time=68.0 ms
+50008 bytes from 172.17.9.1: icmp_seq=86 ttl=64 time=90.4 ms
+50008 bytes from 172.17.9.1: icmp_seq=87 ttl=64 time=117 ms
+50008 bytes from 172.17.9.1: icmp_seq=88 ttl=64 time=151 ms
+50008 bytes from 172.17.9.1: icmp_seq=89 ttl=64 time=200 ms
+50008 bytes from 172.17.9.1: icmp_seq=90 ttl=64 time=241 ms
+50008 bytes from 172.17.9.1: icmp_seq=91 ttl=64 time=256 ms
+50008 bytes from 172.17.9.1: icmp_seq=92 ttl=64 time=277 ms
+50008 bytes from 172.17.9.1: icmp_seq=93 ttl=64 time=268 ms
+50008 bytes from 172.17.9.1: icmp_seq=94 ttl=64 time=275 ms
+50008 bytes from 172.17.9.1: icmp_seq=95 ttl=64 time=256 ms
+50008 bytes from 172.17.9.1: icmp_seq=96 ttl=64 time=238 ms
+50008 bytes from 172.17.9.1: icmp_seq=97 ttl=64 time=240 ms
+50008 bytes from 172.17.9.1: icmp_seq=98 ttl=64 time=239 ms
+50008 bytes from 172.17.9.1: icmp_seq=99 ttl=64 time=249 ms
+50008 bytes from 172.17.9.1: icmp_seq=100 ttl=64 time=263 ms
+
+--- 172.17.9.1 ping statistics ---
+100 packets transmitted, 16 received, 84% packet loss, time 1795ms
+rtt min/avg/max/mdev = 68.043/214.768/277.334/66.522 ms, pipe 8

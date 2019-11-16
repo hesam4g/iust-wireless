@@ -1,0 +1,48 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import time
+p1 = plt.bar([],[])
+p2 = plt.bar([],[])
+
+while(True):
+	data = file('mean.rssi','r')
+	data.readline()
+	X = []
+	Y = []
+	for line in data:
+		line = line.split()
+		X.append(line[0])
+		Y.append(int(line[1]))
+	
+	data.close()
+	
+	recieved = []
+	unrecieved = []
+	for i in Y:
+		if(i != -100):
+			recieved.append(i)
+			unrecieved.append(0)
+		else:
+			recieved.append(0)
+			unrecieved.append(i)
+	
+	recieved = tuple(recieved)
+	unrecieved = tuple(unrecieved)
+	print(X)
+	print(Y)
+	
+	N = len(recieved)
+	ind = np.arange(N)
+	width = 0.2
+	p1 = plt.bar(ind, recieved,   width, color='y')
+	p2 = plt.bar(ind, unrecieved, width, color='r', bottom=recieved)
+	
+	plt.ylabel('RSSI (dBm)')
+	plt.title('RSSI')
+	plt.xticks(ind+width/2., X ,rotation='vertical')
+	plt.yticks(np.arange(-100,0,10))
+	plt.legend( (p1[0], p2[0]), ('Recieved', 'Not Recieved') )
+	ax = plt.gca()
+	ax.invert_yaxis()
+	plt.draw()
+	time.sleep(1)

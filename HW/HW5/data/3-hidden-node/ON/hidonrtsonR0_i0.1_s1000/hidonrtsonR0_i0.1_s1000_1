@@ -1,0 +1,65 @@
+PING 172.17.9.1 (172.17.9.1) 1000(1028) bytes of data.
+1008 bytes from 172.17.9.1: icmp_seq=2 ttl=64 time=1.79 ms
+1008 bytes from 172.17.9.1: icmp_seq=3 ttl=64 time=1.77 ms
+1008 bytes from 172.17.9.1: icmp_seq=4 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=5 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=6 ttl=64 time=1.78 ms
+1008 bytes from 172.17.9.1: icmp_seq=7 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=8 ttl=64 time=1.99 ms
+1008 bytes from 172.17.9.1: icmp_seq=10 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=11 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=13 ttl=64 time=1.77 ms
+1008 bytes from 172.17.9.1: icmp_seq=14 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=15 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=16 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=19 ttl=64 time=3.21 ms
+1008 bytes from 172.17.9.1: icmp_seq=20 ttl=64 time=4.17 ms
+1008 bytes from 172.17.9.1: icmp_seq=22 ttl=64 time=2.22 ms
+1008 bytes from 172.17.9.1: icmp_seq=23 ttl=64 time=2.24 ms
+1008 bytes from 172.17.9.1: icmp_seq=24 ttl=64 time=3.06 ms
+1008 bytes from 172.17.9.1: icmp_seq=25 ttl=64 time=4.35 ms
+1008 bytes from 172.17.9.1: icmp_seq=26 ttl=64 time=2.25 ms
+1008 bytes from 172.17.9.1: icmp_seq=27 ttl=64 time=2.23 ms
+1008 bytes from 172.17.9.1: icmp_seq=28 ttl=64 time=2.24 ms
+1008 bytes from 172.17.9.1: icmp_seq=29 ttl=64 time=2.36 ms
+1008 bytes from 172.17.9.1: icmp_seq=30 ttl=64 time=2.65 ms
+1008 bytes from 172.17.9.1: icmp_seq=31 ttl=64 time=2.23 ms
+1008 bytes from 172.17.9.1: icmp_seq=32 ttl=64 time=2.23 ms
+1008 bytes from 172.17.9.1: icmp_seq=35 ttl=64 time=2.23 ms
+1008 bytes from 172.17.9.1: icmp_seq=36 ttl=64 time=2.23 ms
+1008 bytes from 172.17.9.1: icmp_seq=37 ttl=64 time=3.51 ms
+1008 bytes from 172.17.9.1: icmp_seq=39 ttl=64 time=2.23 ms
+1008 bytes from 172.17.9.1: icmp_seq=41 ttl=64 time=1.75 ms
+1008 bytes from 172.17.9.1: icmp_seq=42 ttl=64 time=1.77 ms
+1008 bytes from 172.17.9.1: icmp_seq=44 ttl=64 time=1.75 ms
+1008 bytes from 172.17.9.1: icmp_seq=46 ttl=64 time=2.09 ms
+1008 bytes from 172.17.9.1: icmp_seq=48 ttl=64 time=2.54 ms
+1008 bytes from 172.17.9.1: icmp_seq=49 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=50 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=51 ttl=64 time=1.77 ms
+1008 bytes from 172.17.9.1: icmp_seq=52 ttl=64 time=1.77 ms
+1008 bytes from 172.17.9.1: icmp_seq=53 ttl=64 time=2.32 ms
+1008 bytes from 172.17.9.1: icmp_seq=54 ttl=64 time=1.75 ms
+1008 bytes from 172.17.9.1: icmp_seq=55 ttl=64 time=1.88 ms
+1008 bytes from 172.17.9.1: icmp_seq=56 ttl=64 time=1.78 ms
+1008 bytes from 172.17.9.1: icmp_seq=57 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=59 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=60 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=61 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=62 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=65 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=66 ttl=64 time=1.77 ms
+1008 bytes from 172.17.9.1: icmp_seq=67 ttl=64 time=1.98 ms
+1008 bytes from 172.17.9.1: icmp_seq=68 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=69 ttl=64 time=1.78 ms
+1008 bytes from 172.17.9.1: icmp_seq=70 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=71 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=72 ttl=64 time=1.76 ms
+1008 bytes from 172.17.9.1: icmp_seq=74 ttl=64 time=1.75 ms
+1008 bytes from 172.17.9.1: icmp_seq=96 ttl=64 time=2.27 ms
+1008 bytes from 172.17.9.1: icmp_seq=98 ttl=64 time=2.23 ms
+1008 bytes from 172.17.9.1: icmp_seq=100 ttl=64 time=1.75 ms
+
+--- 172.17.9.1 ping statistics ---
+100 packets transmitted, 60 received, 40% packet loss, time 10368ms
+rtt min/avg/max/mdev = 1.753/2.082/4.356/0.553 ms
